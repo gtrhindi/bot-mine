@@ -17,10 +17,10 @@ function createBot() {
     spawning = true;
 
     let bot = mineflayer.createBot({
-        username: `TestMachine_${bots.length}`,
-        server: "localhost",
+        username: `MiningBhau_${bots.length}`,
+        server: "Gtrhindi.aternos.me",
         version: "1.16.4",
-		port: 50017,
+		port: 60164,
     });
     
     bot.task = [];
